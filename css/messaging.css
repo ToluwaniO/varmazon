@@ -1,0 +1,139 @@
+* {
+
+}
+
+.row{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    height: 100%;
+}
+
+.row_nav{
+  width: 20%;
+  height: 100%;
+}
+
+.row_lists{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.67%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.67%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width:66.67%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.67%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.others{
+  width:80%;
+  height: 100%;
+  display: block;
+}
+
+.nav{
+  background-color: #318BFF;
+  box-shadow: 0 2px 0 grey;
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+
+.nav .navItem:hover{
+  background-color: #15BFB9;
+}
+
+.sideNav {
+   /* 100% Full-height */
+     /* 0 width - change this with JavaScript */
+    margin: 5px;
+  background-color: #fcfcfc;
+  height: 100%;
+  z-index: 1;
+  transition: 0.5s;
+  /*display: block;*/
+}
+
+.sideNav a {
+
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+    border-bottom: 1px solid black;
+}
+
+.sideNav .header {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    background-color: green;
+    box-shadow: 2px grey;
+    border-radius: 2px;
+}
+
+.message {
+  background-color: lightblue;
+  color: black;
+  padding: 8px 8px 8px 32px;
+  border-radius: 3px;
+  height: 70%;
+}
+
+.input{
+  bottom: 0;
+  vertical-align: bottom;
+  display: inline-block;
+  align-self: flex-end;
+  height: 30%;
+}
