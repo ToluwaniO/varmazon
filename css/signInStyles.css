@@ -1,0 +1,159 @@
+*{
+
+}
+
+html {
+    background-image: url("bookstore_blue.jpg");
+}
+
+body {
+
+
+
+}
+.row{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.row_lists{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.67%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.67%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width:66.67%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.67%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+
+.img-thumbnail,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.logo {
+    height: 130px;
+    text-align: center;
+
+}
+
+input {
+    margin: auto;
+    width: 300px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 30px;
+    border-bottom: 1px solid yellow;
+}
+.input {
+    text-align: center;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-bottom: 15px;
+
+}
+
+button{
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.button {
+    text-align: center;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.google{
+    background-color: red;
+    color: white;
+}
+
+.facebook {
+    background-color: blue;
+    color: white;
+}
+
+.form {
+    margin-top: 80px;
+}
+
+.logo-div {
+    margin: auto;
+
+}
+
+img {
+    margin: auto;
+}
+
+.questions {
+    margin: auto;
+    text-align: center;
+}
+
+a {
+    color: blue;
+}

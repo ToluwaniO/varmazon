@@ -1,0 +1,86 @@
+* {
+
+}
+
+.row{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.row_lists{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.67%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.67%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width:66.67%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.67%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.nav{
+  background-color: blue;
+  box-shadow: 0 2px 0 grey;
+  margin: auto;
+  text-align: center;
+  color: white;
+  height: 40px;
+}
+
+.nav .navItem:hover{
+  background-color: red;
+}
+
+#addNew{
+  display: block;
+  margin-top: 200px;
+  text-align: center;
+  height:100%;
+}
+
+.addNewText{
+  text-align: center;
+}

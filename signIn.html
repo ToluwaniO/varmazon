@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/signInStyles.css">
+    <script src="js/jQuery.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+    <div class="form row">
+        <img src="img/varmazon_logo.png" class="logo">
+    </div>
+
+    <div class="card">
+
+
+        <div class="row"><input id="emailText" type="email" placeholder="Email"></div>
+        <div class="row"><input id="passwordText" type="password" placeholder="Password"></div>
+        <div class="row button"><button id="signInBut" class="button">SIGN IN</button></div>
+
+        <div class="row"><a class="questions">Forgot password?</a></div>
+
+        <div class="row button"><button class="button facebook">SIGN IN WITH FACEBOOK</button></div>
+        <div class="row button"><button id="googleSignIn" class="button google">SIGN IN WITH GOOGLE</button></div>
+
+        <div class="row"><a class="questions">Don't have an account? Sign up</a></div>
+
+    </div>
+
+
+</body>
+
+<script src="js/signIn.js"></script>
+</html>
