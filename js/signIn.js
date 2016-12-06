@@ -10,6 +10,16 @@
 
   var provider = new firebase.auth.GoogleAuthProvider();
 
+  /*firebase.auth().onAuthStateChanged(function(user) {
+    if (user) {
+      // User is signed in.
+      console.log('signed in')
+      window.open('dashboard.html', '_self')
+    } else {
+      // No user is signed in.
+    }
+  });*/
+
 /*var data = {
   "name" : "hello",
   "age" : "16"
@@ -34,18 +44,19 @@ $('#googleSignIn').on('click', function(){
 })
 
 function signIn(email, password){
-  console.log(email + ": " + email)
+
   firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
   // Handle Errors here.
   var errorCode = error.code;
   var errorMessage = error.message;
   console.log(errorMessage)
+    console.log(errorCode.toString())
   // ...
 });
 }
 
 function signInGoogle(){
-  /*firebase.auth().signInWithPopup(provider).then(function(result) {
+  firebase.auth().signInWithPopup(provider).then(function(result) {
   // This gives you a Google Access Token. You can use it to access the Google API.
   var token = result.credential.accessToken;
   // The signed-in user info.
@@ -61,7 +72,7 @@ function signInGoogle(){
   // The firebase.auth.AuthCredential type that was used.
   var credential = error.credential;
   // ...
-});*/
+});
 
 firebase.auth().signInWithRedirect(provider);
 

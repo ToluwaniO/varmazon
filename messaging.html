@@ -2,49 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/messaging.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-    <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
-    <script src="js/jQuery.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-    <title>Title</title>
+    <title>Varmazon</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/messaging.css" rel="stylesheet">
 </head>
-
 <body>
+    <nav class="row text-center nav">
+        <div class="col-md-4">LOGO</div>
+        <div class="col-md-2">HOME</div>
+        <div class="col-md-2">DASHBOARD</div>
+        <div class="col-md-2">MESSAGING</div>
+        <div class="col-md-2">SIGN OUT</div>
+    </nav>
 
-  <nav class="row nav">
-      <div class="col-3 navItem">STORE</div>
-      <div class="col-3 navItem">DASHBOARD</div>
-      <div class="col-3 navItem">MESSAGES</div>
-      <div class="col-3 navItem">SIGN OUT</div>
-  </nav>
+    <div class="row mess">
 
-  <div class="row">
+        <div class="nav-messages">
+            <div class="nav-messages-header">MESSAGES</div>
+            <div class="chatters">
+                John Doe
+            </div>
+            <div class="chatters">
+                John Doe
+            </div>
+            <div class="chatters">
+                John Doe
+            </div>
+            <div class="chatters">
+                John Doe
+            </div>
+            <div class="chatters">
+                John Doe
+            </div>
+        </div>
 
-    <div id="sideNav" class="sideNav row_nav">
-      <div class="header">RECIPIENTS</div>
-      <div><a href="" class="">BOLU</a></div>
+        <div class="texts">
+            <div class="me">Hi man</div>
+            <div class="other">How are you?</div>
+        </div>
+
     </div>
 
-    <div id="messages" class="others">
-      <div class="message">
-        Hi man!
-      </div>
-      <div class="input">
-        <input placeholder="Enter message">
-      </div>
+    <div class="row inputs">
+            <textarea class="col-md-9" type="text" placeholder="Enter message here"></textarea>
+            <button class="col-md-2">SEND</button>
+
     </div>
-
-
-
-  </div>
-
-
-
 </body>
-
-
 </html>

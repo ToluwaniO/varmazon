@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.row{
+/*.row{
     width: 100%;
     margin-bottom: 20px;
     display: flex;
@@ -84,4 +84,97 @@
 .addNewText{
   text-align: center;
   font-weight: 500;
+}*/
+
+.nav {
+    background-color: #00b0ff;
+    height: 40px;
+    box-shadow: 1px 1px 1px lightgrey;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 200;
+}
+
+.company-name {
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.tabs {
+    color: white;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.card {
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px grey;
+    height: 250px;
+    margin: 5px;
+}
+
+.card-image {
+    height: 40%;
+    width: 85%;
+    text-align: center;
+}
+
+.card-name {
+    font-weight: 300;
+    border-bottom: dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-price {
+    color: red;
+    font-weight: 200;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-description {
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-button {
+    color: yellow;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card_img {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+.button {
+    vertical-align: bottom;
+    align-items: flex-end;
+    color: white;
+    text-align: right;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    outline: none;
+    box-shadow: 2px 1px 2px grey;
+    font-weight: 300;
+
 }

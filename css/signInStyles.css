@@ -3,11 +3,11 @@
 }
 
 html {
-    background-image: url("bookstore_blue.jpg");
+
 }
 
 body {
-
+    background-image: url("bookstore_blue.jpg");
 
 
 }
@@ -157,3 +157,9 @@ img {
 a {
     color: blue;
 }
+
+.nav {
+    background-color: #00b0ff;
+}
+
+

@@ -2,36 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="css/signInStyles.css">
-    <script src="js/jQuery.js"></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/signInStyles.css" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
-    <title>Title</title>
+    <script src="js/jQuery.js" type="text/javascript"></script>
+
+    <title>Varmazon</title>
 </head>
 <body>
 
-    <div class="form row">
-        <img src="img/varmazon_logo.png" class="logo">
+
+    <nav class="row text-center nav">
+        <div class="col-md-4">LOGO</div>
+        <div class="col-md-2">HOME</div>
+        <div class="col-md-2">DASHBOARD</div>
+        <div class="col-md-2">MESSAGING</div>
+        <div class="col-md-2">SIGN OUT</div>
+    </nav>
+
+    <div class="text-center row ">
+        <img src="img/varmazon_logo.png" class="logo img-responsive text-center" height="200px">
     </div>
 
-    <div class="card">
-
-
-        <div class="row"><input id="emailText" type="email" placeholder="Email"></div>
-        <div class="row"><input id="passwordText" type="password" placeholder="Password"></div>
-        <div class="row button"><button id="signInBut" class="button">SIGN IN</button></div>
-
-        <div class="row"><a class="questions">Forgot password?</a></div>
-
-        <div class="row button"><button class="button facebook">SIGN IN WITH FACEBOOK</button></div>
-        <div class="row button"><button id="googleSignIn" class="button google">SIGN IN WITH GOOGLE</button></div>
-
-        <div class="row"><a class="questions">Don't have an account? Sign up</a></div>
-
+    <div class="input text-center">
+        <div class="input"><input id="emailText" placeholder="Email" type="email"></div>
+        <div class="input"><input id="passwordText" placeholder="Password" type="password"></div>
+        <div class="input"><button id="signInBut" class="">Sign In</button></div>
+        <div class="input"><button id="googleSignIn" class="google">Sign In with Google</button></div>
+        <div class="input"><button class="facebook">Sign In with Facebook</button></div>
     </div>
-
 
 </body>
-
-<script src="js/signIn.js"></script>
+<script src="js/signIn.js" type="text/javascript"></script>
 </html>
