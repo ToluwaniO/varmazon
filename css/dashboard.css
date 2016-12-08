@@ -115,17 +115,20 @@
     box-shadow: 1px 1px 1px grey;
     height: 250px;
     margin: 5px;
+    text-align: center;
 }
 
 .card-image {
-    height: 40%;
-    width: 85%;
+    height: 50%;
+    width: 90%;
     text-align: center;
+    cursor: pointer;
+
 }
 
 .card-name {
     font-weight: 300;
-    border-bottom: dotted;
+    border-bottom: 1px solid lightgray;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -177,4 +180,8 @@ button {
     box-shadow: 2px 1px 2px grey;
     font-weight: 300;
 
+}
+
+a {
+    text-decoration: none;
 }
