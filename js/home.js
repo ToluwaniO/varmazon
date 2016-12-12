@@ -58,3 +58,52 @@ function signOut(){
         alert('An error occured!\nPlease check your internet connection.')
     });
 }
+
+var items
+const itemsRef = firebase.database().ref().child('items')
+
+var x = 0
+var space = false
+
+
+itemsRef.on('child_added', snap => {
+
+    y = snap.val()
+    console.log(snap.key)
+
+    var dat = '<div class="col-md-3">' +
+        '<div id="' + snap.key + '" class="card ">' +
+        '<div id="item'+ snap.key +'" class="card-image"><img class="card_img" src="' + y.imageurl + '"></div>' +
+        '<div class="card-name">' + y.name + '</div>' +
+        '<div class="card-price">$' + y.price + '</div>' +
+        '<div class="card-description">' + y.description + '</div>'+
+        '<div class="card-button">EDIT</div>'
+        + '</div>'
+        + '</div>'
+
+    if(x = 0){
+        $('#items').append('<div class="row">' + dat)
+        x+=1
+    }
+    else if(x = 2){
+        $('#items').append(dat + '</div>')
+        x = 0
+    }
+    else{
+        $('#items').append(dat)
+        x+=1
+    }
+
+
+})
+
+itemsRef.on('child_removed', snap => {
+    var id = snap.key
+
+    var removed = '<div id="' + id +'" class="card">'+
+        '<div id="item'+ id +'" class="card-image"><img class="card_img" src=""></div>' +
+        '<div class="card-name">' + "REMOVED" + '</div>' + '</div>'
+
+    $('#' + id).replaceWith(removed)
+
+})
